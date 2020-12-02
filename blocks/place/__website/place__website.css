@@ -1,0 +1,5 @@
+.place__website {
+  width: calc(100% - 500px);
+  align-self: flex-end;
+  margin-bottom: 48px;
+}
