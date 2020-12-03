@@ -1,16 +1,12 @@
 .cover__background {
   background-image: url('../../../images/cover-trains.jpg');
   background-size: cover;
-  max-width: 1184px;
-  height: 740px;
   background-position: center;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   z-index: 1;
+  box-sizing: content-box;
+  max-width: 1184px;
 }
 
 .cover__background::before {
