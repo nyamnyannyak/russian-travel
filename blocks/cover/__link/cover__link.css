@@ -8,3 +8,27 @@
   align-items: center;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .cover__link {
+    height: 318px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    height: 200px;
+  }
+}

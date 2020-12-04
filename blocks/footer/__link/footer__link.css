@@ -5,8 +5,18 @@
   font-size: 16px;
   line-height: 18px;
   transition: opacity 350ms linear;
+  display: block;
 }
 
 .footer__link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 510px) {
+  .footer__link {
+    margin-right: 0px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

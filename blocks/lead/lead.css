@@ -3,3 +3,24 @@
   padding: 54px 48px 92px 48px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 46px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

@@ -5,5 +5,17 @@
   color: white;
   text-decoration: none;
   margin-left: 18px;
+  transition: opacity 350ms linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 510px) {
+  .header__lang-link{
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 

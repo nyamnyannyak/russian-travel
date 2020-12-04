@@ -9,3 +9,18 @@
 .place:nth-child(1) {
   margin-top: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .place {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 49px;
+  }
+}
